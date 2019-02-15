@@ -33,7 +33,7 @@ class UnknownBlock extends Transparent{
 	}
 
 	public function canBePlaced() : bool{
-		return false;
+		return true;
 	}
 
 	public function getHardness() : float{
